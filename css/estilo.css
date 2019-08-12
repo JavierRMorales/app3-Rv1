@@ -1,49 +1,49 @@
 * {
-	margin:0;
+	font-family: "tarea";
 	padding: 0;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
-	text-align: center;
 }
-
+@font-face {
+	font-family: "tarea";
+	src: url("../fuentes/AbsolutePink-PersonalUse.otf");
+	font-weight: normal;
+	font-style: normal;
+}
 body {
-	background: url(../img/fondo.jpg);
-	background-size:100%;
+	background-image: url(../img/fondo4.jpg);
+	background-size: 100% 100%;
+	background-attachment:fixed;
 	coior:#fff;
-	font-size: 16px;
 }
 
-.wrap {
+#duno {
 	width: 100%;
-	text-align:center;
 }
 
-.widget {
+#ddos {
 	width: 100%;
 	margin: 2em;
-	text-align: center;
 }
 
-.widget p {
+#ddos p {
 	display: inline-block;
 	line-heigth: 1em;
 }
 
 .fecha {
-	 font-family: Oswald, Arial;
 	 text-align: center;
-	 font-size:1.5em;
+	 font-size:60px;
 	 margin-buttom: 0.3125rem;
 	 background: rgba(0,0,0,.5);
-	 padding: 20px;
 	 width: 100%;
+	 color: #CCC;
 }
 
 .reloj {
-	font-family: Oswald, Arial;
-	width: 100%
-	padding: 20px;
+	width: 100%;
+	color: #CCC;
 	font-size:4em;
 	text-align: center;
 	background: rgba(0,0,0,.5);
@@ -61,5 +61,21 @@ body {
 #todo>div nav ul li a {
 	color: #F0F;
 	text-decoration: none;
-	font-size:30px;
+	font-size:50px;
+}
+#todo #duno #ddos{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+#todo #duno {
+	margin:auto;
+	text-align:center;
+}
+#todo {
+	text-align: center;
+	margin: auto;
+}
+#hola {
+	background: rgba(0,0,0,.5);
 }

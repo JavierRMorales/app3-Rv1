@@ -6,9 +6,9 @@
 </head>
 <body>
 	<form class="form">
-		<input type="number" max="23" min="0" id="horas">
-		<input type="number" max="59" min="0" id="minutos">
-		<input type="number" max="59" min="0" id="segundos">
+		<input type="number" max="23" min="0" id="horas" placeholder="Hora">
+		<input type="number" max="59" min="0" id="minutos" placeholder="Minutos">
+		<input type="number" max="59" min="0" id="segundos" placeholder=" Segundos">
 		<input type="button" id="programar" value="Iniciar">
 	</form>
 	<div class="alarma">
@@ -20,7 +20,14 @@
 			<div id="s"></div>
 		</div>
 	</div>
-	<audio id="audio" src="audio.mp4"></audio>
+    <div>
+		<div id="buttons">
+			<span>
+				<button id="stop"><a href="../index.html"</a>Cancelar Alarma</button>
+			</span>
+		</div>
+    </div>	<audio id="audio" src="audio.mp4"></audio>
 <script src="script.js"></script>
+
 </body>
 </html>

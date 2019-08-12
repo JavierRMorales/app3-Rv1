@@ -1,3 +1,4 @@
+audio = new Audio('audio.mp4');
 document.getElementById('programar').addEventListener("click",desaparecer);
 
 function desaparecer(){
@@ -44,10 +45,9 @@ function calcularTiempo(h,m,s){
   if (horaAlarma > total) {
   diferencia = horaAlarma - total;
   } else if (horaAlarma == total) {
-  document.getElementById("audio").play();
-  setTimeout(function(){alert("¡¡¡¡despertate!!!!")},1000);
+  audio.play();
+  setTimeout(function(){alert("¡¡Despierta chango!!")},1000);
   }
-
    else {
   diferencia = horaAlarma + 3600 * 24 - total;
   }
