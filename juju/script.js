@@ -57,5 +57,4 @@ function calcularTiempo(h,m,s){
 
   Resultado = HorasDif + ":" + MinutosDif + ":" + SegundosDif;
   return Resultado.split(":");
-}
-
+};
